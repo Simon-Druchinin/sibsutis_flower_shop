@@ -23,4 +23,4 @@
 
 1.  Перейти в папку проекта: cd flower-shop
 2.  Создать и запустить контейнеры: ```docker-compose up --build -d```
-3.  Выполнить миграции: docker-compose exec webapp python manage.py migrate
+3.  Выполнить миграции: ```docker-compose exec webapp python manage.py migrate```
